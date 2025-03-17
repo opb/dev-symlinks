@@ -1,0 +1,19 @@
+{
+    "name": "opb/dev-symlinks",
+    "description": "Package to change symlink to true or false depending on env",
+    "type": "composer-plugin",
+    "require": {
+        "composer/composer": "^2.0",
+        "composer-plugin-api": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Opb\\DevSymlinks\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Opb\\DevSymlinks\\SymlinkPlugin"
+    },
+    "minimum-stability": "stable"
+}
